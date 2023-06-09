@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use PDF;
+use Barryvdh\DomPDF\Facade as PDF;
 use Carbon;
 use App\User;
 use App\Transaksi;

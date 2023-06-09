@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Session;
+use Illuminate\Support\Facades\Session;
 use App\User;
 use App\Outlet;
 use App\Transaksi;

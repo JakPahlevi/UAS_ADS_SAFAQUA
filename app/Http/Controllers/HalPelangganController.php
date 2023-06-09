@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use PDF;
+use Barryvdh\DomPDF\Facade as PDF;
 use Carbon;
-use Session;
+use Illuminate\Support\Facades\Session;
 use App\User;
 use App\Struk;
 use App\Outlet;
