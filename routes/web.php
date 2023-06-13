@@ -21,7 +21,7 @@ Route::get('/', function () {
 Route::post('/registrasi_awal', 'SistemLoginController@registrasiAwal');
 Route::get('/login', 'SistemLoginController@halamanLogin')->name('login');
 Route::post('/login_verifikasi', 'SistemLoginController@verifikasiLogin');
-Route::get('/logout', 'SistemLoginController@prosesLogout');
+Route::get('/logout', 'SistemLoginController@prosesLogout')->name('logout');
 // =================================================================================================
 
 // =============================== AKSES ADMIN, KASIR, DAN PELANGGAN ===============================
@@ -125,5 +125,5 @@ Route::group(['middleware' => ['auth', 'checkRole:member,non_member']], function
 
 // ====================================== Sistem Login Bawaan ======================================
 // Auth::routes();
-// Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 // =================================================================================================
