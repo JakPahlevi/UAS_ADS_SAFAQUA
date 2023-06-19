@@ -49,7 +49,7 @@
                                     <textarea class="form-control h-150px" rows="6" id="comment" placeholder="Masukkan alamat outlet" name="alamat">{{ $outlets->alamat }}</textarea>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label class="col-lg-4 col-form-label" for="val-password">Sematkan Peta (Iframe - HTML)
                                 </label>
                                 <div class="col-lg-6">
@@ -60,7 +60,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-group row">
                                 <div class="col-lg-8 ml-auto">
                                     <button type="submit" class="btn btn-primary">Ubah Data</button>

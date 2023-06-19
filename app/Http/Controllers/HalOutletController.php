@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Session;
+use Illuminate\Support\Facades\Session;
 use App\Outlet;
 use Illuminate\Http\Request;
 
@@ -29,10 +29,10 @@ class HalOutletController extends Controller
     	$outlets->alamat = $req->alamat;
     	$outlets->hotline = $req->hotline;
     	$outlets->email = $req->email;
-    	if($req->iframe_script != '')
-    	{
-    		$outlets->iframe_script = $req->iframe_script;	
-    	}
+    	// if($req->iframe_script != '')
+    	// {
+    	// 	$outlets->iframe_script = $req->iframe_script;	
+    	// }
     	$outlets->save();
     	Session::flash('tersimpan', 'Outlet baru berhasil ditambahkan');
 		return redirect('/kelola_outlet');
@@ -60,10 +60,10 @@ class HalOutletController extends Controller
     	$outlets->alamat = $req->alamat;
     	$outlets->hotline = $req->hotline;
     	$outlets->email = $req->email;
-    	if($req->iframe_script != '')
-    	{
-    		$outlets->iframe_script = $req->iframe_script;	
-    	}
+    	// if($req->iframe_script != '')
+    	// {
+    	// 	$outlets->iframe_script = $req->iframe_script;	
+    	// }
     	$outlets->save();
     	Session::flash('terubah', 'Outlet berhasil diubah');
 		return redirect('/kelola_outlet');

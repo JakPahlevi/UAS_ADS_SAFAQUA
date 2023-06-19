@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Session;
+use Illuminate\Support\Facades\Session;
 use App\Outlet;
 use App\Paket_kilo;
 use App\Paket_satu;
@@ -73,7 +73,6 @@ class HalPaketController extends Controller
     	$paket_kilos->kd_paket = $req->kd_paket;
     	$paket_kilos->nama_paket = $req->nama_paket;
     	$paket_kilos->harga_paket = $req->harga_paket;
-    	$paket_kilos->hari_paket = $req->hari_paket;
     	$paket_kilos->min_berat_paket = $req->min_berat_paket;
         $paket_kilos->id_outlet = $req->id_outlet;
     	if($req->antar_jemput_paket != '')
@@ -144,7 +143,6 @@ class HalPaketController extends Controller
     	$paket_kilos = Paket_kilo::find($id);
     	$paket_kilos->nama_paket = $req->nama_paket;
     	$paket_kilos->harga_paket = $req->harga_paket;
-    	$paket_kilos->hari_paket = $req->hari_paket;
     	$paket_kilos->min_berat_paket = $req->min_berat_paket;
         $paket_kilos->id_outlet = $req->id_outlet;
     	if($req->antar_jemput_paket != '')

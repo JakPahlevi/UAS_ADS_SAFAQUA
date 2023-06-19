@@ -18,7 +18,6 @@ class CreatePaketKiloTable extends Migration
             $table->string('kd_paket');
             $table->string('nama_paket');
             $table->bigInteger('harga_paket');
-            $table->integer('hari_paket');
             $table->integer('min_berat_paket');
             $table->boolean('antar_jemput_paket')->default(0);
             $table->integer('id_outlet');

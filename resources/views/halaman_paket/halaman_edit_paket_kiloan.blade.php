@@ -49,7 +49,7 @@
                                     <div class="harga_paket_error"></div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label class="col-lg-4 col-form-label" for="val-hari">Lama Hari <span class="text-danger">*</span>
                                 </label>
                                 <div class="col-lg-6">
@@ -61,15 +61,15 @@
                                     </div>
                                     <div class="hari_paket_error"></div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-group row">
-                                <label class="col-lg-4 col-form-label" for="val-minimal-berat">Minimal Berat Paket <span class="text-danger">*</span>
+                                <label class="col-lg-4 col-form-label" for="val-minimal-berat">Minimal Pembelian <span class="text-danger">*</span>
                                 </label>
                                 <div class="col-lg-6">
                                     <div class="input-group">
                                         <input type="number" class="form-control" id="val-minimal-berat" name="min_berat_paket" placeholder="Masukkan minimal berat paket" min="1" value="{{ $paket_kilos->min_berat_paket }}">
                                         <div class="input-group-append">
-                                            <span class="input-group-text">/ Kg</span>
+                                            <span class="input-group-text">/ galon</span>
                                         </div>
                                     </div>
                                     <div class="min_berat_paket_error"></div>

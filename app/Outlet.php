@@ -8,6 +8,6 @@ class Outlet extends Model
 {
     // Table Outlets
     protected $fillable = [
-        'nama', 'alamat', 'hotline', 'email', 'iframe_script'
+        'nama', 'alamat', 'hotline', 'email'
     ];
 }

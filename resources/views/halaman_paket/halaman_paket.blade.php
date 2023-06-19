@@ -52,7 +52,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label class="col-md-3 col-form-label">Lama Hari</label>
                                 <div class="col-md-9">
                                     <div class="input-group">
@@ -62,14 +62,14 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="form-group row">
                                 <label class="col-md-3 col-form-label">Minimal Berat</label>
                                 <div class="col-md-9">
                                     <div class="input-group">
                                         <input type="text" readonly="readonly" class="form-control min_berat_paket">
                                         <div class="input-group-append">
-                                            <span class="input-group-text">Kg</span>
+                                            <span class="input-group-text">galon</span>
                                         </div>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@
                         <div class="default-tab">
                             <ul class="nav nav-tabs mb-3" role="tablist">
                                 <li class="nav-item"><a class="nav-link paket_kiloan_tab active" data-toggle="tab"
-                                       href="#paket_kiloan">Paket Kiloan</a>
+                                       href="#paket_kiloan">Paket Air Galon</a>
                                 </li>
                                 {{-- <li class="nav-item"><a class="nav-link paket_satuan_tab" data-toggle="tab"
                                        href="#paket_satuan">Paket Satuan</a>
@@ -159,7 +159,7 @@
                                             <div class="card" style="background-color: #f4f3f9;">
                                                 <div class="card-body">
                                                     <div class="d-flex justify-content-between">
-                                                        <h4>Daftar Paket Kiloan</h4>
+                                                        <h4>Daftar Paket Air Galon</h4>
                                                         <button type="button"
                                                                 class="btn btn-primary font-weight-bold btn-sm tambah_kiloan_btn mb-1"
                                                                 data-count="{{ $outlets }}">Tambah Paket <span
@@ -398,17 +398,18 @@
             if (simpan == "kiloan") {
                 swal(
                     "Berhasil!",
-                    "Paket kiloan baru berhasil ditambahkan",
+                    "Paket Air Galon baru berhasil ditambahkan",
                     "success"
                 );
-            } else if (simpan == "satuan") {
+            } 
+            /* else if (simpan == "satuan") {
                 swal(
                     "Berhasil!",
                     "Paket satuan baru berhasil ditambahkan",
                     "success"
                 );
                 $('.paket_satuan_tab').click();
-            }
+            } */
         @endif
 
         @if ($message = Session::get('terhapus'))
@@ -416,17 +417,18 @@
             if (hapus == "kiloan") {
                 swal(
                     "Berhasil!",
-                    "Paket kiloan berhasil dihapus",
+                    "Paket Air Galon berhasil dihapus",
                     "success"
                 );
-            } else if (hapus == "satuan") {
-                swal(
-                    "Berhasil!",
-                    "Paket satuan berhasil dihapus",
-                    "success"
-                );
-                $('.paket_satuan_tab').click();
-            }
+            } 
+            // else if (hapus == "satuan") {
+            //     swal(
+            //         "Berhasil!",
+            //         "Paket satuan berhasil dihapus",
+            //         "success"
+            //     );
+            //     $('.paket_satuan_tab').click();
+            // }
         @endif
 
         @if ($message = Session::get('terubah'))
@@ -434,17 +436,19 @@
             if (ubah == "kiloan") {
                 swal(
                     "Berhasil!",
-                    "Paket kiloan berhasil diubah",
+                    "Paket Air Galon berhasil diubah",
                     "success"
                 );
-            } else if (ubah == "satuan") {
-                swal(
-                    "Berhasil!",
-                    "Paket satuan berhasil diubah",
-                    "success"
-                );
-                $('.paket_satuan_tab').click();
-            }
+            } 
+            
+            // else if (ubah == "satuan") {
+            //     swal(
+            //         "Berhasil!",
+            //         "Paket satuan berhasil diubah",
+            //         "success"
+            //     );
+            //     $('.paket_satuan_tab').click();
+            // }
         @endif
     </script>
 @endsection

@@ -342,8 +342,8 @@
                                         <div class="form-group">
                                             <label class="radio-inline mr-3">
                                                 <input type="radio" name="jenis_laundry" checked="checked" value="kiloan"> Kiloan</label>
-                                            <label class="radio-inline ml-5 mr-3">
-                                                <input type="radio" name="jenis_laundry" value="satuan"> Satuan</label>
+                                            {{-- <label class="radio-inline ml-5 mr-3">
+                                                <input type="radio" name="jenis_laundry" value="satuan"> Satuan</label> --}}
                                         </div>
                                         <div class="alert alert-primary deskripsi-jasa"><b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan timbangan yang di laundry</div>
                                     </div>
