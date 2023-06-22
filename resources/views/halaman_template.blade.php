@@ -106,10 +106,10 @@
                         </li>
                     @endif
                     @if (auth()->user()->role == 'admin' || auth()->user()->role == 'kasir')
-                        <li class="nav-label">Layanan Laundry</li>
+                        <li class="nav-label">Layanan Galon</li>
                         <li>
                             <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                                <i class="fa fa-tasks menu-icon"></i> <span class="nav-text">Layanan Laundry</span>
+                                <i class="fa fa-tasks menu-icon"></i> <span class="nav-text">Layanan Galon</span>
                             </a>
                             <ul aria-expanded="false">
                                 <li><a href="{{ url('/registrasi_pelanggan') }}">Registrasi Pelanggan</a></li>

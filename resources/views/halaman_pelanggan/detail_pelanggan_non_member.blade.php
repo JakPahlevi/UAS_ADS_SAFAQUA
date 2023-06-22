@@ -25,7 +25,7 @@
 <div class="row page-titles mx-0">
     <div class="col p-md-0">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Layanan Laundry</a></li>
+            <li class="breadcrumb-item"><a href="#">Layanan Galon</a></li>
             <li class="breadcrumb-item"><a href="{{ url('/kelola_pelanggan') }}">Kelola Pelanggan</a></li>
             <li class="breadcrumb-item active"><a href="{{ url('/detail_pelanggan_non_member/' . $id) }}">Detail Pelanggan</a></li>
         </ol>

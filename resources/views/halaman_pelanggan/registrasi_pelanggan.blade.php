@@ -57,7 +57,7 @@
 <div class="row page-titles mx-0">
     <div class="col p-md-0">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Layanan Laundry</a></li>
+            <li class="breadcrumb-item"><a href="#">Layanan Galon</a></li>
             <li class="breadcrumb-item active"><a href="{{ url('/registrasi_pelanggan') }}">Registrasi Pelanggan</a></li>
         </ol>
     </div>
@@ -77,7 +77,7 @@
                         </li>
                         <li class="nav-item" hidden="hidden"><a href="#slide-1" class="nav-link active slide-1-btn" data-toggle="tab" aria-expanded="false"></a>
                         </li>
-                        <li class="nav-item"><a href="#" class="layanan-tab nav-link">Layanan Laundry</a>
+                        <li class="nav-item"><a href="#" class="layanan-tab nav-link">Layanan Galon</a>
                         </li>
                         <li class="nav-item" hidden="hidden"><a href="#slide-2" class="nav-link slide-2-btn" data-toggle="tab" aria-expanded="false"></a>
                         </li>
@@ -337,7 +337,7 @@
                                             @endforeach
                                         </select>
                                         <div class="pilih_outlet_error"></div>
-                                        <h4 class="mt-3 mb-3">Pilih Jenis Laundry</h4>
+                                        <h4 class="mt-3 mb-3">Pilih Jenis Galon</h4>
                                         <hr>
                                         <div class="form-group">
                                             <label class="radio-inline mr-3">
@@ -348,7 +348,7 @@
                                         <div class="alert alert-primary deskripsi-jasa"><b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan timbangan yang di laundry</div>
                                     </div>
                                     <div class="col-lg-12 mb-5" id="hal_paket_kiloan">
-                                        <h4 class="mt-3 mb-3">Pilih Paket Laundry</h4>
+                                        <h4 class="mt-3 mb-3">Pilih Paket Galon</h4>
                                         <hr>
                                         <div class="row" id="daftar_paket_kiloan">
                                             

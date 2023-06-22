@@ -81,7 +81,7 @@
 <div class="row page-titles mx-0">
     <div class="col p-md-0">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Layanan Laundry</a></li>
+            <li class="breadcrumb-item"><a href="#">Layanan Galon</a></li>
             <li class="breadcrumb-item"><a href="{{ url('/kelola_pelanggan') }}">Kelola Pelanggan</a></li>
             <li class="breadcrumb-item active"><a href="{{ url('/layanan_member/' . $id) }}">Layanan Member</a></li>
         </ol>
@@ -342,7 +342,7 @@
 						                @endforeach
 						            </select>
 						            <div class="pilih_outlet_error"></div>
-						            <h4 class="mt-3 mb-3">Pilih Jenis Laundry</h4>
+						            <h4 class="mt-3 mb-3">Pilih Jenis Galon</h4>
 						            <hr>
 						            <div class="form-group">     
 						                <label class="radio-inline mr-3">
@@ -350,10 +350,10 @@
 						                {{-- <label class="radio-inline ml-5 mr-3">
 						                    <input type="radio" name="jenis_laundry" value="satuan"> Satuan</label> --}}
 						            </div>
-						            <div class="alert alert-primary deskripsi-jasa"><b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan timbangan yang di laundry</div>
+						            {{-- <div class="alert alert-primary deskripsi-jasa"><b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan timbangan yang di laundry</div> --}}
 						        </div>
 						        <div class="col-lg-12 mb-5" id="hal_paket_kiloan">
-						            <h4 class="mt-3 mb-3">Pilih Paket Laundry</h4>
+						            <h4 class="mt-3 mb-3">Pilih Paket Galon</h4>
 						            <hr>
 						            <div class="row" id="daftar_paket_kiloan">
 						                

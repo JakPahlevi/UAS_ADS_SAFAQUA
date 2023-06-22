@@ -493,7 +493,7 @@
                             </table>
                         </div>
                         <div class="col-md-12 mt-3">
-                            <p class="text-dark font-weight-bold" style="font-size: 14px;">Paket Laundry</p>
+                            <p class="text-dark font-weight-bold" style="font-size: 14px;">Paket Galon</p>
                         </div>
                         <div class="col-md-12">
                             <div class="default-tab">
