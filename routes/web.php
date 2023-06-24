@@ -20,6 +20,8 @@ Route::get('/', function () {
 // ========================================== SISTEM LOGIN =========================================
 Route::post('/registrasi_awal', 'SistemLoginController@registrasiAwal');
 Route::get('/login', 'SistemLoginController@halamanLogin')->name('login');
+Route::get('/register', 'SistemLoginController@halamanRegistrasi')->name('register');
+Route::post('/registrasi_member', 'SistemLoginController@registrasiMember')->name('registrasi_member');
 Route::post('/login_verifikasi', 'SistemLoginController@verifikasiLogin');
 Route::get('/logout', 'SistemLoginController@prosesLogout')->name('logout');
 // =================================================================================================

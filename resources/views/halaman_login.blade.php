@@ -94,6 +94,8 @@
                                         </div>
                                         <button class="btn login-form__btn submit w-100">Masuk</button>
                                     </form>
+                                    <a href="{{ route('register') }}"
+                                       class="btn login-form__btn submit w-100">Registrasi Akun</a>
                                 </div>
                             </div>
                         </div>
