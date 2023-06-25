@@ -556,10 +556,7 @@
                                     <div class="default-tab">
                                         <ul class="nav nav-tabs mb-3" role="tablist">
                                             <li class="nav-item"><a class="nav-link active" data-toggle="tab"
-                                                   href="#paket_kiloan">Paket Kiloan</a>
-                                            </li>
-                                            <li class="nav-item"><a class="nav-link" data-toggle="tab"
-                                                   href="#paket_satuan">Paket Satuan</a>
+                                                   href="#paket_kiloan">Jenis Produk</a>
                                             </li>
                                         </ul>
                                         <div class="tab-content">
@@ -754,6 +751,13 @@
         </script>
     @else
         <script type="text/javascript">
+            @if ($message = Session::get('pesananBerhasil'))
+                swal(
+                    "Berhasil!",
+                    "{{ $message }}",
+                    "success"
+                )
+            @endif
             (function($) {
                 $.fn.inputFilter = function(inputFilter) {
                     return this.on("input keydown keyup mousedown mouseup select contextmenu drop", function() {

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Checkout_kilo;
 use Auth;
 use App\User;
 use App\Outlet;
@@ -9,6 +10,8 @@ use App\Pelanggan;
 use App\Transaksi;
 use App\Paket_kilo;
 use App\Paket_satu;
+use Carbon\Carbon;
+use Session;
 use Illuminate\Http\Request;
 
 class HalDashboardController extends Controller
@@ -124,5 +127,42 @@ class HalDashboardController extends Controller
             $pelanggans->save();
             echo "sukses";
         }
+    }
+
+    public function pesanSekarang($kodeProduk)
+    {
+        $maxKodeInvoice = Transaksi::max('kd_invoice') ?? 'I0000';
+        $angka = intval(substr($maxKodeInvoice, 1));
+        $angka++;
+        $kodeInvoiceBaru = "I" . str_pad($angka, 4, '0', STR_PAD_LEFT);
+
+        $paketTerpilih = Paket_kilo::where('kd_paket', $kodeProduk)->first();
+
+        Checkout_kilo::create([
+            'kd_invoice' => $kodeInvoiceBaru,
+            'kd_paket'  => $kodeProduk,
+            'berat_barang' => 1,
+            'metode_pembayaran' => 'rumah',
+            'harga_paket' => $paketTerpilih->harga_paket,
+            'harga_antar' => 0,
+            'harga_total' => $paketTerpilih->harga_paket,
+        ]);
+
+        $hari_ini = Carbon::now()->isoFormat('Y-M-D');
+
+        Transaksi::create([
+            'id_outlet' => $paketTerpilih->id_outlet,
+            'kd_invoice' => $kodeInvoiceBaru,
+            'kd_pelanggan'  => auth()->user()->kd_pengguna,
+            'tgl_pemberian' => $hari_ini,
+            'tgl_selesai' => $hari_ini,
+            'status' => 'baru',
+            'ket_bayar' => 'belum_dibayar',
+            'kd_pegawai' => 'U0001'
+        ]);
+
+        Session::flash('pesananBerhasil', 'Pesanan Kamu Telah Berhasil, Silakan Tunggu Kedatangannya!');
+
+        return redirect('/dashboard');
     }
 }

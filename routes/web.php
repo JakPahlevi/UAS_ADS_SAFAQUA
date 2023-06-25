@@ -114,6 +114,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function(){
 // ======================================== AKSES PELANGGAN ========================================
 Route::group(['middleware' => ['auth', 'checkRole:member,non_member']], function(){
 // => Dashboard Pelanggan
+	Route::get('/pesan_sekaran/{kodeProduk}', 'HalDashboardController@pesanSekarang')->name('pesan_sekarang');
 	Route::get('/data_outlet_dashboard/{id}', 'HalDashboardController@dashboardPelanggan');
 	Route::get('/outlet_tabel_kiloan/{id}', 'HalDashboardController@outletTabelKiloan');
 	Route::get('/outlet_tabel_satuan/{id}', 'HalDashboardController@outletTabelSatuan');
