@@ -409,7 +409,7 @@
 						<div class="col-md-4">
 							<div class="d-flex justify-content-start">
 								<button class="btn btn-pesanan kiloan_btn btn_active">Pesanan Kiloan</button>
-								<button class="btn btn-pesanan satuan_btn ">Pesanan Satuan</button>
+								{{-- <button class="btn btn-pesanan satuan_btn ">Pesanan Satuan</button> --}}
 							</div>
 						</div>
 					</div>

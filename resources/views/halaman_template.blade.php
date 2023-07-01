@@ -163,12 +163,12 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
+        {{-- <div class="footer">
             <div class="copyright">
                 <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a>
                     2018</p>
             </div>
-        </div>
+        </div> --}}
     </div>
     <script src="{{ asset('plugins/common/common.min.js') }}"></script>
     <script src="{{ asset('js/custom.min.js') }}"></script>

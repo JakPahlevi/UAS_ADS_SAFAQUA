@@ -417,7 +417,7 @@
                                         <hr>
                                         <div class="text-center">
                                             <div class="foto">
-                                                <img src="{{ asset('/pictures/' . auth()->user()->avatar) }}"
+                                                <img src="{{ asset('public/icons/pratama_text.png' . auth()->user()->avatar) }}"
                                                      class="profil-pict rounded-circle img-thumbnail">
                                                 <div class="upload-btn-wrapper ubah_foto_file" hidden="">
                                                     <button type="button" class="ubah_foto_btn btn"><i

@@ -341,11 +341,11 @@
                                         <hr>
                                         <div class="form-group">
                                             <label class="radio-inline mr-3">
-                                                <input type="radio" name="jenis_laundry" checked="checked" value="kiloan"> Kiloan</label>
+                                                <input type="radio" name="jenis_laundry" checked="checked" value="kiloan"> Lihat yang tersedia di bawah</label>
                                             {{-- <label class="radio-inline ml-5 mr-3">
                                                 <input type="radio" name="jenis_laundry" value="satuan"> Satuan</label> --}}
                                         </div>
-                                        <div class="alert alert-primary deskripsi-jasa"><b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan timbangan yang di laundry</div>
+                                        <div class="alert alert-primary deskripsi-jasa"><b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan jenis air + ongkir/free ongkir</div>
                                     </div>
                                     <div class="col-lg-12 mb-5" id="hal_paket_kiloan">
                                         <h4 class="mt-3 mb-3">Pilih Paket Galon</h4>
@@ -360,12 +360,12 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-12">
-                                                <h4 class="mt-3 mb-3">Masukkan Berat</h4>
+                                                <h4 class="mt-3 mb-3">Masukkan Jumlah Pembelian</h4>
                                                 <hr>
                                                 <div class="input-group">
-                                                    <input type="number" class="form-control" id="berat_barang" name="berat_barang" placeholder="Masukkan Berat" readonly="readonly">
+                                                    <input type="number" class="form-control" id="berat_barang" name="berat_barang" placeholder="Masukkan Jumlah Pembelian" readonly="readonly">
                                                     <div class="input-group-append">
-                                                        <span class="input-group-text">/ Kg</span>
+                                                        <span class="input-group-text">/ galon</span>
                                                     </div>
                                                 </div>
                                                 <div class="berat_barang_error"></div>
@@ -603,7 +603,7 @@ $(document).on('change', 'input[type=radio][name=jenis_laundry]', function(){
         $('.metode_pembayaran_satu_1').prop('selected', true);
         $('.jasa_antar_satuan').html('<div class="antar_nama_satuan"></div><div class="antar_harga_satuan"></div>');
         $('.checkout_box_satu').attr('hidden', true);
-        $('.deskripsi-jasa').html('<b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan timbangan yang di laundry');
+        $('.deskripsi-jasa').html('<b>Deskripsi Jasa :</b><br>Perhitungan biaya berdasarkan jenis air + ongkir/free ongkir');
     }else if(this.value == 'satuan'){
         cek_metode_pembayaran_kilo = 0;
         var validator = $(".registrasi-form").validate();
