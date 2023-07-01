@@ -125,7 +125,7 @@
 }
 /* Active anchors */
 .sw-theme-dots > ul.step-anchor > li.active > a {
-    color: #7571f9;
+    color: #0077b6;
 }
 
 .sw-theme-dots > ul.step-anchor > li.active > a:hover {
@@ -133,7 +133,7 @@
 }
 
 .sw-theme-dots > ul.step-anchor > li.active > a:after {
-    background: #7571f9;
+    background: #0077b6;
 }
 /* Done anchors */
 .sw-theme-dots > ul.step-anchor > li.done > a {

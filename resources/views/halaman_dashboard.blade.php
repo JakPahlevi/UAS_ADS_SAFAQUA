@@ -68,7 +68,7 @@
 
             .upload-btn-wrapper button {
                 position: absolute;
-                background-color: #7571f9;
+                background-color: #0077b6;
                 color: #fff;
                 top: 15%;
                 left: 65%;

@@ -21,7 +21,7 @@
             <div class="col-md-6">
                 @if ($paket_kilo->antar_jemput_paket == 1)
                     <div
-                         style="background-color: #fff; border: 1px solid #7571f9; height: 70px; line-height: 70px; border-radius: 7px;">
+                         style="background-color: #fff; border: 1px solid #0077b6; height: 70px; line-height: 70px; border-radius: 7px;">
                         <a href="{{ route('pesan_sekarang', $paket_kilo->kd_paket) }}">
                             <div class="text-dark font-weight-bold text-center">
                                 <p style="font-size: 16px;"><i class="icon-check text-success"></i> Pesan Sekarang

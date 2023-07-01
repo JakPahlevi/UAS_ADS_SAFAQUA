@@ -14,7 +14,7 @@
 	    height: 6rem;
 	}
 	.c-primary{
-	    color: #7571f9;
+	    color: #0077b6;
 	}
 	.identitas-table tr th, .identitas-table tr td{
 		padding: 5px;

@@ -8,7 +8,7 @@
 	border-radius: 0px;
 }
 .btn_active{
-	border-bottom: 2px solid #7571f9;
+	border-bottom: 2px solid #0077b6;
 }
 .table_modal tr td, .table_modal tr th{
 	padding: 5px;

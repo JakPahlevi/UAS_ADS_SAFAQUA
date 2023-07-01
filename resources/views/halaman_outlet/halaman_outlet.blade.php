@@ -18,7 +18,7 @@
     height: 100%;
 }
 .c-primary{
-    color: #7571f9;
+    color: #0077b6;
 }
 </style>
 @endsection
@@ -81,7 +81,7 @@
 
                         </div>
                         {{-- <div class="row not_available_map" hidden="">
-                            <div class="col-md-11 text-center font-weight-bold" style="height: 200px; margin: 20px; background-color: #fff; color: #fe6383; vertical-align: middle; line-height: 200px; border: 2px solid #7571f9;">
+                            <div class="col-md-11 text-center font-weight-bold" style="height: 200px; margin: 20px; background-color: #fff; color: #fe6383; vertical-align: middle; line-height: 200px; border: 2px solid #0077b6;">
                                 Tidak Ada Map
                             </div>
                         </div> --}}

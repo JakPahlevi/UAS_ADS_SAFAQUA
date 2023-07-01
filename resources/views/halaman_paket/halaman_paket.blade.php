@@ -5,7 +5,7 @@
     <link href="{{ asset('plugins/toastr/css/toastr.min.css') }}" rel="stylesheet">
     <style type="text/css">
         .c-primary {
-            color: #7571f9;
+            color: #0077b6;
         }
     </style>
 @endsection

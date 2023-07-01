@@ -8,7 +8,7 @@
 	    height: 3rem;
 	}
 	.c-primary{
-	    color: #7571f9;
+	    color: #0077b6;
 	}
 </style>
 @endsection

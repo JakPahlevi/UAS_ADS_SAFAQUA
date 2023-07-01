@@ -52,7 +52,7 @@
 
 .line-primary{
 	height: 2px;
-	background-color: #7571f9;
+	background-color: #0077b6;
 }
 .fotouser{
     object-fit: cover;

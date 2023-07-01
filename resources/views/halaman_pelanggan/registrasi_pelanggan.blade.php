@@ -72,7 +72,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title mb-4">Registrasi Pelanggan</h4>
-                    <ul class="nav nav-pills mb-3" style="border-bottom: 1px solid #7571f9;">
+                    <ul class="nav nav-pills mb-3" style="border-bottom: 1px solid #0077b6;">
                         <li class="nav-item"><a href="#" class="identitas-tab nav-link active">Data Diri</a>
                         </li>
                         <li class="nav-item" hidden="hidden"><a href="#slide-1" class="nav-link active slide-1-btn" data-toggle="tab" aria-expanded="false"></a>

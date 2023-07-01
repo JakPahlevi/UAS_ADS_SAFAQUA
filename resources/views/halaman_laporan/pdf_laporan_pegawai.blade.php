@@ -86,7 +86,7 @@
         }
 
         .badge-primary {
-            background-color: #7571f9;
+            background-color: #0077b6;
         }
     </style>
 </head>

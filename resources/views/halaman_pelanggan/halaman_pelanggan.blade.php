@@ -19,10 +19,10 @@
 	border-radius: 0px;
 }
 .c-primary{
-	color: #7571f9;
+	color: #0077b6;
 }
 .btn-member-border{
-	border-bottom: 2px solid #7571f9;
+	border-bottom: 2px solid #0077b6;
 }
 .fotouser{
     object-fit: cover;

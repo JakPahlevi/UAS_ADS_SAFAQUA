@@ -10,8 +10,8 @@
 	    height: 7rem;
 	}
 	.role-primary{
-		color: #7571f9;
-		border: 1px solid #7571f9;
+		color: #0077b6;
+		border: 1px solid #0077b6;
 	}
 	.role-success{
 		color: #6fd96f;
@@ -22,7 +22,7 @@
 	}
 	.upload-btn-wrapper button{
 	  position: absolute;
-	  background-color: #7571f9;
+	  background-color: #0077b6;
 	  color: #fff;
 	  top: 0%;
 	  left: 100%;

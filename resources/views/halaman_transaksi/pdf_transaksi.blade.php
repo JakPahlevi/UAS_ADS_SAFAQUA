@@ -59,7 +59,7 @@
 		    white-space: nowrap;
 		}
 		.badge-primary{
-			background-color: #7571f9;
+			background-color: #0077b6;
 		}
 	</style>
 </head>
@@ -71,7 +71,7 @@
 				<td class="text-right" style="padding-top: 50px; padding-left: 300px; padding-right: 50px;">{{ $transaksis->nama_outlet }}<br>{{ $transaksis->alamat_outlet }}</td>
 			</tr>
 			<tr>
-				<td colspan="2" style="text-align: right; padding-right: 50px; padding-top: -5px; color: #7571f9;">{{ $transaksis->email_outlet }}<br>{{ $transaksis->hotline }}</td>
+				<td colspan="2" style="text-align: right; padding-right: 50px; padding-top: -5px; color: #0077b6;">{{ $transaksis->email_outlet }}<br>{{ $transaksis->hotline }}</td>
 			</tr>
 			<tr>
 				<td style="padding-left: 50px; text-align: left; color: #454545; font-weight: bold;">PELANGGAN &nbsp;&nbsp;<span class="badge badge-primary">{{ $transaksis->cek_member }}</span></td>
@@ -126,7 +126,7 @@
 			<tr>
 				<th colspan="3" style="border-bottom: 0px; padding-top: 10px; padding-bottom: 10px;"></th>
 				<td style="padding-top: 10px; padding-bottom: 10px; text-align: left; font-weight: bold;">BAYAR</td>
-				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #7571f9; font-weight: bold;">Rp. {{ number_format($struks->harga_bayar,2,',','.') }}</td>
+				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #0077b6; font-weight: bold;">Rp. {{ number_format($struks->harga_bayar,2,',','.') }}</td>
 			</tr>
 			<tr>
 				<th colspan="3" style="border-bottom: 0px; padding-top: 10px; padding-bottom: 10px;"></th>
@@ -137,7 +137,7 @@
 			<tr>
 				<th colspan="3" style="border-bottom: 0px; padding-top: 10px; padding-bottom: 10px;"></th>
 				<td style="padding-top: 10px; padding-bottom: 10px; text-align: left; font-weight: bold;">TOTAL</td>
-				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #7571f9; font-weight: bold;">Rp. {{ number_format($checkout_kilo->harga_total,2,',','.') }}</td>
+				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #0077b6; font-weight: bold;">Rp. {{ number_format($checkout_kilo->harga_total,2,',','.') }}</td>
 			</tr>
 			@endif
 		</table>
@@ -183,7 +183,7 @@
 			<tr>
 				<th colspan="3" style="border-bottom: 0px; padding-top: 10px; padding-bottom: 10px;"></th>
 				<td colspan="2" style="padding-top: 10px; padding-bottom: 10px; text-align: left; font-weight: bold;">BAYAR</td>
-				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #7571f9; font-weight: bold;">Rp. {{ number_format($struks->harga_bayar,2,',','.') }}</td>
+				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #0077b6; font-weight: bold;">Rp. {{ number_format($struks->harga_bayar,2,',','.') }}</td>
 			</tr>
 			<tr>
 				<th colspan="3" style="border-bottom: 0px; padding-top: 10px; padding-bottom: 10px;"></th>
@@ -194,7 +194,7 @@
 			<tr>
 				<th colspan="3" style="border-bottom: 0px; padding-top: 10px; padding-bottom: 10px;"></th>
 				<td style="padding-top: 10px; padding-bottom: 10px; text-align: left; font-weight: bold;">TOTAL</td>
-				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #7571f9; font-weight: bold;">Rp. {{ number_format($checkout_satu->harga_total,2,',','.') }}</td>
+				<td style="padding-top: 10px; padding-bottom: 10px; text-align: right; color: #0077b6; font-weight: bold;">Rp. {{ number_format($checkout_satu->harga_total,2,',','.') }}</td>
 			</tr>
 			@endif
 		</table>
