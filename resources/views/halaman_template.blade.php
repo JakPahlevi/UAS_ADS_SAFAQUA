@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Safaqua</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/pratama_icon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/safaqua_icon.png') }}">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     @yield('css')
 </head>
@@ -24,12 +24,14 @@
         <div class="nav-header">
             <div class="brand-logo">
                 <a href="{{ url('/dashboard') }}">
-                    {{-- <b class="logo-abbr"><img src="{{ asset('icons/pratama_icon_w.png') }}" alt=""> </b> --}}
-                    {{-- <span class="logo-compact"><img src="{{ asset('icons/pratama_text.png') }}" width="110"
-                             alt=""></span> --}}
-                    {{-- <span class="brand-title">
-                        <img src="{{ asset('icons/pratama_text.png') }}" width="110" alt="">
-                    </span> --}}
+                    {{-- INI BAGIAN LOGO DASHBOARD  --}}
+                    <b class="logo-abbr"><img src="{{ asset('icons/safaqua_icon_w.png') }}" alt=""> </b>
+                    <span class="logo-compact"><img src="{{ asset('icons/pratama_text.png') }}" width="110"
+                    alt=""></span>
+                    <span class="brand-title">
+                        <img src="{{ asset('icons/SAFAQUA.png') }}" width="110" alt="">
+                    </span>
+                    {{-- INI BATAS AKHIR BAGIAN LOGO DASHBOARD--}}
                 </a>
             </div>
         </div>

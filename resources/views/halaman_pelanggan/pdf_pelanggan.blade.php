@@ -67,7 +67,7 @@
 	<div class="header">
 		<table style="width: 100%;" class="table-header">
 			<tr>
-				<td style="padding-top: 50px; padding-left: 50px;"><img src="{{ asset('icons/pratama_icon.png') }}" class="logo-laundry"></td>
+				<td style="padding-top: 50px; padding-left: 50px;"><img src="{{ asset('icons/safaqua_icon.png') }}" class="logo-laundry"></td>
 				<td class="text-right" style="padding-top: 50px; padding-left: 300px; padding-right: 50px;">{{ $transaksis->nama_outlet }}<br>{{ $transaksis->alamat_outlet }}</td>
 			</tr>
 			<tr>

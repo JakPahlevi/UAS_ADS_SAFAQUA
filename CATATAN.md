@@ -26,3 +26,10 @@ There are no explicit aggregation relationships indicated in the provided table 
 Inheritance:
 
 There are no explicit inheritance relationships indicated in the provided table schemas.
+
+
+
+1. tinggal bagian GIF
+2. Laporan yang Sequence diagram, Activity Diagram
+3. As-Is Diagram
+4. Bikin Video
