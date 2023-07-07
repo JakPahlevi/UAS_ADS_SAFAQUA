@@ -60,8 +60,8 @@
 						<div class="col-md-4">
 							<div class="row">
 								<div class="col-md-12 text-center">
-									<img src="{{ asset('gif/laundry-cat.gif') }}" class="proses-gif">
-									<img src="{{ asset('gif/selesai.gif') }}" class="selesai-gif" hidden="">
+									<img src="{{ asset('gif/proses-isi.jpg') }}" class="proses-gif">
+									<img src="{{ asset('gif/selesai-isi.jpg') }}" class="selesai-gif" hidden="">
 									<img src="{{ asset('gif/scooter-running.gif') }}" class="diantar-gif" hidden="">
 									<img src="{{ asset('gif/completed.gif') }}" class="diambil-gif" hidden="">
 								</div>

@@ -390,7 +390,7 @@
                                         Galon Bersama Kami</p>
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="{{ asset('images/laundry.png') }}" class="laundry-gambar">
+                                    {{-- <img src="{{ asset('images/dashboard_galon.jpg') }}" class="laundry-gambar"> --}}
                                 </div>
                             </div>
                         </div>

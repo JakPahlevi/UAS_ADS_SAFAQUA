@@ -8,7 +8,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Kelola Data</a></li>
             <li class="breadcrumb-item active"><a href="{{ url('/kelola_paket') }}">Kelola Paket</a></li>
-            <li class="breadcrumb-item active"><a href="{{ url('/edit_paket_kiloan/' . $id) }}">Edit Paket Kiloan</a></li>
+            <li class="breadcrumb-item active"><a href="{{ url('/edit_paket_kiloan/' . $id) }}">Edit Paket Galon</a></li>
         </ol>
     </div>
 </div>

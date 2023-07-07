@@ -29,7 +29,8 @@ There are no explicit inheritance relationships indicated in the provided table 
 
 
 
-1. tinggal bagian GIF
-2. Laporan yang Sequence diagram, Activity Diagram
-3. As-Is Diagram
+1. tinggal bagian GIF (Proses, selesai, bagian home) 
+2. Laporan yang Sequence diagram, Activity Diagram✅
+3. As-Is Diagram✅
 4. Bikin Video
+5. pesananan kiloan
