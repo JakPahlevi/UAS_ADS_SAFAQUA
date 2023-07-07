@@ -66,8 +66,8 @@
 									<img src="{{ asset('gif/completed.gif') }}" class="diambil-gif" hidden="">
 								</div>
 								<div class="col-md-12">
-									<div class="alert alert-warning font-weight-bold text-center ket-proses">Pesanan Sedang Dicuci</div>
-									<div class="alert alert-success font-weight-bold text-center ket-selesai" hidden="">Pesanan Selesai Dicuci</div>
+									<div class="alert alert-warning font-weight-bold text-center ket-proses">Pesanan Sedang Diproses</div>
+									<div class="alert alert-success font-weight-bold text-center ket-selesai" hidden="">Pesanan Selesai Diproses</div>
 									<div class="alert alert-danger font-weight-bold text-center ket-diantar" hidden="">Pesanan Sedang Diantar</div>
 									<div class="alert alert-dark font-weight-bold text-center ket-diambil" hidden="">Pesanan Sudah Diterima</div>
 								</div>

@@ -62,9 +62,9 @@
 							<div class="row">
 								<div class="col-md-12 text-center">
 									@if($transaksis->status == 'proses')
-									<img src="{{ asset('gif/laundry-cat.gif') }}" class="proses-gif">
+									<img src="{{ asset('gif/proses-isi.jpg') }}" class="proses-gif">
 									@elseif($transaksis->status == 'selesai')
-									<img src="{{ asset('gif/selesai.gif') }}" class="selesai-gif">
+									<img src="{{ asset('gif/selesai-isi.jpg') }}" class="selesai-gif">
 									@elseif($transaksis->status == 'diantar')
 									<img src="{{ asset('gif/scooter-running.gif') }}" class="diantar-gif">
 									@elseif($transaksis->status == 'diambil')
@@ -73,9 +73,9 @@
 								</div>
 								<div class="col-md-12">
 									@if($transaksis->status == 'proses')
-									<div class="alert alert-warning font-weight-bold text-center ket-proses">Pesanan Sedang Dicuci</div>
+									<div class="alert alert-warning font-weight-bold text-center ket-proses">Pesanan Sedang Diproses</div>
 									@elseif($transaksis->status == 'selesai')
-									<div class="alert alert-success font-weight-bold text-center ket-selesai">Pesanan Selesai Dicuci</div>
+									<div class="alert alert-success font-weight-bold text-center ket-selesai">Pesanan Selesai Diproses</div>
 									@elseif($transaksis->status == 'diantar')
 									<div class="alert alert-danger font-weight-bold text-center ket-diantar">Pesanan Sedang Diantar</div>
 									@elseif($transaksis->status == 'diambil')
